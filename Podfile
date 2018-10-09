@@ -11,6 +11,15 @@ target 'Strongbox' do
     pod 'SAMKeychain'
 end
 
+target 'OneDriveSDK' do
+    project 'OneDriveSDK/OneDriveSDK.xcodeproj'
+    platform :ios, '9.2'
+    use_frameworks!
+
+    pod 'ADAL', '~> 1.2'
+    pod 'Base32', '~> 1.1'
+end
+
 target 'Strongbox-iOS' do
     project 'Strongbox.xcodeproj'
     platform :ios, '9.2'
@@ -25,6 +34,6 @@ target 'Strongbox-iOS' do
     pod 'ObjectiveDropboxOfficial'
     pod 'DZNEmptyDataSet'
     pod 'PopupDialog'
-    pod 'OneDriveSDK'
+#    pod 'OneDriveSDK', :path => '~/dev/onedrive-sdk-ios/'
 end
 

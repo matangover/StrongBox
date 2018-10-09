@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4162D3BD6CEC779BD0ADC06E /* Pods_Strongbox_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0495539ED0F8BD7031A0EAA4 /* Pods_Strongbox_iOS.framework */; };
 		4D0BA7D81F23B844009243C9 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BA7D71F23B844009243C9 /* Settings.m */; };
 		4D0BA7DB1F23CA2A009243C9 /* PreferencesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BA7DA1F23CA2A009243C9 /* PreferencesTableViewController.m */; };
 		4D1757BB1C8361D300E6356F /* BrowseSafeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1757901C8361D200E6356F /* BrowseSafeView.m */; };
@@ -25,6 +24,7 @@
 		4D29E46F206D350300AD537E /* PasswordGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D29E46E206D350300AD537E /* PasswordGenerator.m */; };
 		4D29E472206D434400AD537E /* PasswordGenerationSettingsTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D29E471206D434400AD537E /* PasswordGenerationSettingsTableView.m */; };
 		4D2E35691F62C9CB0064B5D5 /* SelectStorageProviderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2E35681F62C9CB0064B5D5 /* SelectStorageProviderController.m */; };
+		4D317F43216D68C5007BCDA6 /* OneDriveSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D317F42216D68C5007BCDA6 /* OneDriveSDK.framework */; };
 		4D31925F1ECF528B00DF6ED0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D31925E1ECF528B00DF6ED0 /* GoogleService-Info.plist */; };
 		4D38AD08215F96110027249F /* OneDriveForBusinessStorageProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D38AD07215F96110027249F /* OneDriveForBusinessStorageProvider.m */; };
 		4D3D991C1F77FA1500E829B6 /* AppleICloudOrLocalSafeFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3D991B1F77FA1500E829B6 /* AppleICloudOrLocalSafeFile.m */; };
@@ -73,6 +73,7 @@
 		4DED20C32168AC9A00A5800A /* InitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DED20C22168AC9A00A5800A /* InitialViewController.m */; };
 		4DED20C62168B63200A5800A /* QuickLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DED20C52168B63200A5800A /* QuickLaunchViewController.m */; };
 		4DFAA3871EDDBFA8003FB355 /* AddSafeAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFAA3861EDDBFA8003FB355 /* AddSafeAlertController.m */; };
+		7FC0C8771D45109806FE9A6B /* Pods_Strongbox_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0495539ED0F8BD7031A0EAA4 /* Pods_Strongbox_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -85,6 +86,9 @@
 		4D0BA7D71F23B844009243C9 /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
 		4D0BA7D91F23CA2A009243C9 /* PreferencesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesTableViewController.h; sourceTree = "<group>"; };
 		4D0BA7DA1F23CA2A009243C9 /* PreferencesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesTableViewController.m; sourceTree = "<group>"; };
+		4D12297C216D3C8100614E15 /* OneDriveSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OneDriveSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D12297E216D3DBD00614E15 /* Pods_Strongbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_Strongbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D122980216D3DC900614E15 /* OneDriveSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OneDriveSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D17578F1C8361D200E6356F /* BrowseSafeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowseSafeView.h; sourceTree = "<group>"; };
 		4D1757901C8361D200E6356F /* BrowseSafeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowseSafeView.m; sourceTree = "<group>"; };
 		4D1757971C8361D200E6356F /* GoogleDriveManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleDriveManager.h; sourceTree = "<group>"; };
@@ -121,6 +125,9 @@
 		4D2E35671F62C9CB0064B5D5 /* SelectStorageProviderController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectStorageProviderController.h; sourceTree = "<group>"; };
 		4D2E35681F62C9CB0064B5D5 /* SelectStorageProviderController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectStorageProviderController.m; sourceTree = "<group>"; };
 		4D2F82331F754FB0001688C9 /* Strongbox.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = Strongbox.entitlements; path = Strongbox/Strongbox.entitlements; sourceTree = "<group>"; };
+		4D317F35216D67FD007BCDA6 /* OneDriveSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OneDriveSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D317F40216D68B1007BCDA6 /* libPods-OneDriveSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-OneDriveSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D317F42216D68C5007BCDA6 /* OneDriveSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OneDriveSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D31925E1ECF528B00DF6ED0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4D38AD06215F96110027249F /* OneDriveForBusinessStorageProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneDriveForBusinessStorageProvider.h; sourceTree = "<group>"; };
 		4D38AD07215F96110027249F /* OneDriveForBusinessStorageProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneDriveForBusinessStorageProvider.m; sourceTree = "<group>"; };
@@ -136,6 +143,7 @@
 		4D446807216CE02C00F6358D /* Csv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Csv.h; path = model/Csv.h; sourceTree = SOURCE_ROOT; };
 		4D446808216CE02C00F6358D /* Csv.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Csv.m; path = model/Csv.m; sourceTree = SOURCE_ROOT; };
 		4D446813216D2EC100F6358D /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = SOURCE_ROOT; };
+		4D4A47DC216D501600AABED5 /* OneDriveSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OneDriveSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D4C49021EDEC0B900EB857D /* RecordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordView.h; sourceTree = "<group>"; };
 		4D4C49031EDEC0B900EB857D /* RecordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordView.m; sourceTree = "<group>"; };
 		4D4F184A2165125B00578F0E /* NSArray+Extensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSArray+Extensions.h"; path = "model/NSArray+Extensions.h"; sourceTree = SOURCE_ROOT; };
@@ -228,7 +236,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D93FD771EDB7A520076BBAA /* StoreKit.framework in Frameworks */,
-				4162D3BD6CEC779BD0ADC06E /* Pods_Strongbox_iOS.framework in Frameworks */,
+				7FC0C8771D45109806FE9A6B /* Pods_Strongbox_iOS.framework in Frameworks */,
+				4D317F43216D68C5007BCDA6 /* OneDriveSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +482,13 @@
 		C28E68E855D68D8BECCE3B5B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4D317F42216D68C5007BCDA6 /* OneDriveSDK.framework */,
+				4D317F40216D68B1007BCDA6 /* libPods-OneDriveSDK.a */,
+				4D317F35216D67FD007BCDA6 /* OneDriveSDK.framework */,
+				4D4A47DC216D501600AABED5 /* OneDriveSDK.framework */,
+				4D122980216D3DC900614E15 /* OneDriveSDK.framework */,
+				4D12297E216D3DBD00614E15 /* Pods_Strongbox.framework */,
+				4D12297C216D3C8100614E15 /* OneDriveSDK.framework */,
 				4D076F26215FC3BF00B9C284 /* MSGraphCoreSDK.framework */,
 				4D076F21215FC08600B9C284 /* MSAL.framework */,
 				4D076F22215FC08600B9C284 /* MSGraphMSALAuthProvider.framework */,
@@ -614,8 +630,6 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Strongbox-iOS/Pods-Strongbox-iOS-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ADAL/ADAL.framework",
-				"${BUILT_PRODUCTS_DIR}/Base32/Base32.framework",
 				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
 				"${BUILT_PRODUCTS_DIR}/DynamicBlurView/DynamicBlurView.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
@@ -625,15 +639,12 @@
 				"${BUILT_PRODUCTS_DIR}/ISMessages/ISMessages.framework",
 				"${BUILT_PRODUCTS_DIR}/JNKeychain/JNKeychain.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectiveDropboxOfficial/ObjectiveDropboxOfficial.framework",
-				"${BUILT_PRODUCTS_DIR}/OneDriveSDK/OneDriveSDK.framework",
 				"${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework",
 				"${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ADAL.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Base32.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DynamicBlurView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
@@ -643,7 +654,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ISMessages.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JNKeychain.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectiveDropboxOfficial.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OneDriveSDK.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopupDialog.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
@@ -887,7 +897,7 @@
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
-				USER_HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "OneDriveSDK/**";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -916,7 +926,7 @@
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
-				USER_HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "OneDriveSDK/**";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
